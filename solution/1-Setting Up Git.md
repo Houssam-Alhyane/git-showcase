@@ -11,8 +11,7 @@ This project introduces the basics of Git version control, including repository 
 ### Install Git
 
 ```bash
-sudo apt update
-sudo apt install git
+sudo apt install -y git-all
 ```
 
 ### Configure Git User Information
