@@ -44,7 +44,7 @@ git ls-tree -r <tree-hash>
 ### 6. Dump Contents of `lib/` Directory and `hello.sh`
 To explore the `lib/` directory structure:
 ```bash
-git ls-tree <tree-hash> lib/
+git cat-file -p <lib-tree-hash>
 ```
 Show content of a file (hello.sh):
 ```bash
