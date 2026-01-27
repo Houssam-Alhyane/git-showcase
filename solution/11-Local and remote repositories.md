@@ -79,7 +79,6 @@ git log --oneline --all --graph
 ### 7. Merge Remote Changes into Local Branch
 Merge the changes from the remote `main` branch into the local `main` branch:
 ```bash
-git checkout main
 git merge origin/main
 ```
 
@@ -100,9 +99,9 @@ git checkout -b greet origin/greet
 ### 9. Add Remote and Push Branches
 Add a `remote` to your Git repository and push the `main` and `greet` branches to the remote:
 ```bash
-git remote add origin <remote-url>
-git push -u origin main
-git push -u origin greet
+git remote add shared <remote-url>
+git push -u shared main
+git push -u shared greet
 git push -tags -u origin
 ```
 
