@@ -85,6 +85,8 @@ conflicts occur during rebase:
 ```bash
 
 git restore --ours lib/hello.sh
+git rebase --continue
+
 ```
 
 ---
