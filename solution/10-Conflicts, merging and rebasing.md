@@ -72,7 +72,7 @@ git commit -m "Resolve conflict: accept changes from main"
 Go back to the point before the initial merge between `main` and `greet`:
 ```bash
 git checkout greet
-git reset --hard HEAD~1
+git reset --hard HEAD~2
 ```
 
 ### 6. Rebase Greet on Top of Main
