@@ -19,6 +19,7 @@ git tag v1-beta HEAD~1
 ```bash
 git checkout v1
 git checkout v1-beta
+git checkout main
 ```
 
 # List all tags
