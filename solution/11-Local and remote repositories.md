@@ -103,6 +103,7 @@ Add a `remote` to your Git repository and push the `main` and `greet` branches t
 git remote add origin <remote-url>
 git push -u origin main
 git push -u origin greet
+git push -tags -u origin
 ```
 
 ---
