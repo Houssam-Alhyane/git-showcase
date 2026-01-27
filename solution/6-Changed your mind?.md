@@ -47,7 +47,7 @@ git reset --hard v1
 ```
 ### Displaying Logs with Deleted Commits
 ```bash
-git log --oneline --graph --all
+git reflog
 ```
 ### Cleaning Unreferenced Commits
 ```bash
