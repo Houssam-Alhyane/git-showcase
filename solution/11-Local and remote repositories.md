@@ -99,9 +99,9 @@ git checkout -b greet origin/greet
 ### 9. Add Remote and Push Branches
 Add a `remote` to your Git repository and push the `main` and `greet` branches to the remote:
 ```bash
-git remote add shared <remote-url>
-git push -u shared main
-git push -u shared greet
+git remote add github <remote-url>
+git push -u github main
+git push -u github greet
 git push -tags -u origin
 ```
 
