@@ -102,7 +102,7 @@ Add a `remote` to your Git repository and push the `main` and `greet` branches t
 git remote add github <remote-url>
 git push -u github main
 git push -u github greet
-git push -tags -u origin
+git push --tags -u github
 ```
 
 ---
