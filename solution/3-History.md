@@ -27,7 +27,7 @@ git log --since="5 minutes ago" --oneline
 ### Show Personalized Log Format
 
 ```bash
-git log --pretty=format:"* %h %ad | %s (%d) [%an]" --date=short
+git log --pretty=format:"%h %ad | %s %d [%an]" --date=short
 ```
 
 **Explanation:**
