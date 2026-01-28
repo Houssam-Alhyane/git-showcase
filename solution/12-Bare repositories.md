@@ -53,6 +53,6 @@ git push shared main
 Switch to the cloned `cloned_hello` repository and pull the changes just pushed to the shared repository:
 ```bash
 cd ../cloned_hello
-git remote set-url origin ../hello.git
-git pull origin main
+git remote add shared ../hello.git
+git pull shared main
 ```
