@@ -1,6 +1,7 @@
 [submodule "work/hello"]
-	path = work/hello
-	url = ./work/hello
+    path = work/hello
+    url = https://github.com/Houssam-Alhyane/hello.git
+
 [submodule "work/cloned_hello"]
-	path = work/cloned_hello
-	url = ./work/cloned_hello
+    path = work/cloned_hello
+    url = https://github.com/Houssam-Alhyane/cloned_hello.git
