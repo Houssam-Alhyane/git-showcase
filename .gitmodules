@@ -1,0 +1,6 @@
+[submodule "work/hello"]
+	path = work/hello
+	url = ./work/hello
+[submodule "work/cloned_hello"]
+	path = work/cloned_hello
+	url = ./work/cloned_hello
