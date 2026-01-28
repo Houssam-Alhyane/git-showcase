@@ -7,7 +7,7 @@ This project introduces the basics of Git version control, including repository 
 ---
 ## Commit History showcase
 ```bash
-https://github.com/Houssam-Alhyane/git
+https://github.com/Houssam-Alhyane/git-showcase
 ```
 ## Environment Setup
 
